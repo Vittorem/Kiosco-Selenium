@@ -1,0 +1,23 @@
+# Node.js y npm
+node_modules/
+npm-debug.log
+
+# WebDriver Manager
+wdm/
+
+# Selenium
+selenium/
+
+# Mocha
+mocha/
+
+# Archivos de configuración de entorno
+.env
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Otros
+*.log
+*.tmp

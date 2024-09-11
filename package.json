@@ -1,0 +1,21 @@
+{
+  "name": "kiosco_selenium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/*.spec.js --no-timeouts",
+    "report": "mocha \"tests/**/*.js\" --reporter mochawesome --reporter-options reportDir=reports,reportFilename=TestReport --no-timeouts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.7.3",
+    "selenium-webdriver": "^4.24.0",
+    "webdriver-manager": "^12.1.9"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
+  }
+}
